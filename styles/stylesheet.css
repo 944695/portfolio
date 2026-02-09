@@ -1,0 +1,76 @@
+h1 {
+    border-style: dashed;
+    border-width: 3px;
+    border-color:  #FFFFFF;
+}
+
+p {
+    color: rgba(9, 184, 204, 0.834);
+}
+
+body {
+    background-color: rgba(213, 210, 212, 0.931);
+    font: 16px "Gill Sans", sans-serif;
+}
+
+ul {
+  color: rgb(234, 143, 230);
+}
+
+li {
+  color: rgb(234, 143, 230);
+}
+
+.lavender-text {
+    color: rgb(142, 143, 198, 1);
+}
+
+.important {
+    font-weight: bold;
+}
+
+.important:hover {
+    background-color: hsla(183, 80%, 46%, 0.5);
+}
+
+a[href="https://github.com/944695/semantic-elements"] {
+    background-color: #9cefc6;
+    padding: 1rem;
+}
+
+a[href="https://www.wix.com/blog/personal-blog-tips"] {
+    background-color: rgb(122, 222, 253);
+    padding: 1rem;
+}
+
+a[href="https://www.figma.com/community/file/1273571982885059508/e-commerce-website-template-freebie"] {
+    background-color: #d2a6e8;
+    padding: 1rem;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    border-style: groove;
+    border-color: rgb(220, 127, 173);
+    border-width: 5px;
+    width: 50%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+footer{
+    color: rgba(213, 210, 212, 0.931);
+    padding: 1rem;
+}
+footer a:hover {
+    color:rgba(228, 20, 228, 0.966);
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
