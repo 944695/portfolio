@@ -6,23 +6,51 @@ h1 {
 
 p {
     color: rgba(9, 184, 204, 0.834);
+    transition-property: border;
+    transition-duration: 4s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
 }
 
 body {
     background-color: rgba(213, 210, 212, 0.931);
-    font: 16px "Gill Sans", sans-serif;
+    font: 16px 'Audiowide', sans-serif;
 }
 
-ul {
-  color: rgb(234, 143, 230);
+.box {
+    height: 600px;
+    width: 900px;
+    border: 30px solid rgb(217, 0, 255);
+    background: lightpink;
 }
 
-li {
+.container {
+    height: 2100px;
+    background-color: lightblue;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+ul:nth-child(2) li:nth-child(2n) {
   color: rgb(234, 143, 230);
+  transition: border 4s ease-in 1s;
+}
+
+ul:nth-child(2) li:nth-child(2n + 1) {
+  color: rgb(62, 164, 236);
+  transition: border 4s ease-in 1s;
 }
 
 .lavender-text {
     color: rgb(142, 143, 198, 1);
+}
+
+.coral-text {
+    color: rgb(226, 107, 166);
 }
 
 .important {
@@ -31,6 +59,20 @@ li {
 
 .important:hover {
     background-color: hsla(183, 80%, 46%, 0.5);
+}
+
+.portfolio-list {
+    color: rgb(241, 132, 179);
+}
+
+.resizable-text {
+  font-size: 16px; /* Initial font size */
+  /* Add the transition property to the initial state */
+  transition: font-size 0.3s ease-in-out; 
+}
+
+.resizable-text:hover {
+  font-size: 24px; /* Target font size on hover */
 }
 
 a[href="https://github.com/944695/semantic-elements"] {

@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects - Portfolio</title>
+    <script src="https://kit.fontawesome.com/844733387c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 </head>
 <body>
     <header>
         <h1 class="important lavender-text">My Portfolio</h1>
         <nav>
-            <ul>
-                <li><a href="index.html">Projects</a></li>
-                <li><a href="about-me.html">About Me</a></li>
+            <ul class="coral-text">
+                <li><a href="index.html">Projects</a> <i class="fa-regular fa-lightbulb"></i></li>
+                <li><a href="about-me.html">About Me</a> <i class="fa-solid fa-image-portrait"></i></li>
             </ul>
         </nav>
     </header>
@@ -20,27 +22,35 @@
     <article>
         <h2 class="important lavender-text">My Projects</h2>
         <p>Welcome to my project portfolio. Below you'll find a collection of my work, showcasing various web development projects I've completed or am currently working on.</p>
-
-        <section>
-            <h3 class="important lavender-text">Assignment 1</h3>
-            <img src="images/assignment-1.jpg" width="444" height="333" alt="Screenshot of Assignment 1">
-            <p>My first HTML assignment focusing on semantic markup and document structure. This project demonstrates fundamental HTML concepts and proper use of semantic elements.</p>
-            <a href="https://github.com/944695/semantic-elements">View Project</a>
-        </section>
-
-        <section>
-            <h3 class="important lavender-text">Personal Blog Platform</h3>
-            <img src="images/blog-platform.jpg" width="444" height="333"  alt="Screenshot of blog platform">
-            <p>A responsive blog platform built with modern web technologies. Features include article management, responsive design, and optimized performance for mobile devices.</p>
-            <a href="https://www.wix.com/blog/personal-blog-tips">View Project</a>
-        </section>
-
-        <section>
-            <h3 class="important lavender-text">E-Commerce Website</h3>
-            <img src="images/ecommerce-website.jpg" width="444" height="333" alt="Screenshot of e-commerce website">
-            <p>An administrative dashboard for managing online store inventory, orders, and customer data. Includes data visualization and real-time updates.</p>
-            <a href="https://www.figma.com/community/file/1273571982885059508/e-commerce-website-template-freebie">View Project</a>
-        </section>
+        <div class="container">
+            <div class="box">
+            <section>
+                <h3 class="important lavender-text">Assignment 1</h3>
+                <img src="images/assignment-1.jpg" width="444" height="333" alt="Screenshot of Assignment 1">
+                <p class="resizable-text">My first HTML assignment focusing on semantic markup and document structure. This project demonstrates fundamental HTML concepts and proper use of semantic elements.</p>
+                <br>
+                <a href="https://github.com/944695/semantic-elements">View Project</a>
+            </section>
+            </div>
+            <div class="box">
+            <section>
+                <h3 class="important lavender-text">Personal Blog Platform</h3>
+                <img src="images/blog-platform.jpg" width="444" height="333"  alt="Screenshot of blog platform">
+                <p class="resizable-text">A responsive blog platform built with modern web technologies. Features include article management, responsive design, and optimized performance for mobile devices.</p>
+                <br>
+                <a href="https://www.wix.com/blog/personal-blog-tips">View Project</a>
+            </section>
+            </div>
+            <div class="box">
+            <section>
+                <h3 class="important lavender-text">E-Commerce Website</h3>
+                <img src="images/ecommerce-website.jpg" width="444" height="333" alt="Screenshot of e-commerce website">
+                <p class="resizable-text">An administrative dashboard for managing online store inventory, orders, and customer data. Includes data visualization and real-time updates.</p>
+                <br>
+                <a href="https://www.figma.com/community/file/1273571982885059508/e-commerce-website-template-freebie">View Project</a>
+            </section>
+            </div>
+        </div>
     </article>
 
     <footer>
